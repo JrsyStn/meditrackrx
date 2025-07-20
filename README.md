@@ -31,7 +31,6 @@ MediTrack Rx is a medicine and patient management app built with **Flutter** and
 
 - [Flutter](https://flutter.dev/)
 - [Firebase Firestore](https://firebase.google.com/)
-- [flutter_local_notifications](https://pub.dev/packages/flutter_local_notifications)
 - [timezone](https://pub.dev/packages/timezone)
 
 ---
@@ -59,8 +58,7 @@ MediTrack Rx is a medicine and patient management app built with **Flutter** and
 
 3. **Configure Firebase**
    - Create a Firebase project.
-   - Add your platform (iOS/Android) and download `google-services.json` / `GoogleService-Info.plist`.
-   - Replace the contents of `firebase_options.dart` with your own configuration.
+   - Add your platform and download `google-services.json` / `GoogleService-Info.plist`.
 
 4. **Run the app**
    ```bash
